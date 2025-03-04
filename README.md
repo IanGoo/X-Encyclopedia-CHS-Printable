@@ -1,2 +1,3 @@
-# X-Encyclopedia-CHS-Printable
-Chinese translation of X Encyclopedia.
+# X 百科全书（中文第三版）
+
+这是 《X 百科全书》中文第三版的可打印版本。在线版本请参考：
