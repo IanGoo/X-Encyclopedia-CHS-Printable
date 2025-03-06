@@ -11,7 +11,7 @@
 #show heading: set text(font: "Sarasa UI SC", weight: "black", fill: rgb("#204090"))
 #show heading.where(level: 1): set text(size: 1.5em, font: "Sarasa UI SC", weight: "regular")
 #show heading.where(level: 5): set heading(numbering: none)
-#show heading.where(level: 5): set text(font: ("Noto Sans", "Noto Sans CJK SC"))
+#show heading.where(level: 5): set text(font: "Sarasa UI SC")
 //脚注设定
 #show footnote: set text(fill: blue, weight: "bold")
 #show footnote.entry: set text(weight: "light", font: "Sarasa UI SC")
