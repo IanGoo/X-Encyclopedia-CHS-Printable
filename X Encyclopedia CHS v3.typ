@@ -1155,7 +1155,7 @@ Argon已经建立起了强大的武装力量，这使得他们和盟友没有重
 
 在Paranid和Split代表团的强烈呼吁下，ICSCS#footnote([Interplanetary Committee for Security and Collaboration in Space，行星际空间安全与合作委员会。])决定彻底消灭Xenon这一威胁，Argon保持中立，而Boron则基于朴素的伦理价值观反对这一计划，并且制订了一项紧急计划防止这些机器生命的“灭绝”。他们提议将一些偏远星区划拨给Xenon，其中还有三个曾经隶属于Boron王国的行星系统和其他一些对CoP没有多少价值的可以剥离的星区。当Xenon被全数赶进这些星区之后，通往这些星区的跳跃门将被关闭。
 
-Xenon在古老的TF/CPU `#efaa`和`#deff`的带领下，引爆了一颗超新星，警告CoP停止一切敌对行为。
+Xenon在古老的TF/CPU `#efaa`和`#deff`的带领下，引爆了一颗超新星#footnote([Black Hole Sun 也是同名星区所在行星系统的中央恒星，该恒星是一颗与太阳相仿的 G2 型主序星，其质量只有 0.8-1.2 倍太阳质量，照理说是没有资格变成超新星的（超新星的要求是 8 倍太阳质量起步），这里只能用 Xenon 的干预（星球毁灭武器）来圆了。])，警告CoP停止一切敌对行为。
 
 ==== 改造这自我意识的觉醒
 
@@ -4675,6 +4675,8 @@ Kyle Brennan曾经被Kha'ak劫持并驾驶Obliterator，后来被Argon联邦海�
 )
 
 #pagebreak()
+
+#sect([= 附加译注])
 
 == 关于“半克反物质驱动信使无人机”的计算<am_power>
 
