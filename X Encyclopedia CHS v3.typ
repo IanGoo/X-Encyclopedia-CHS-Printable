@@ -6,7 +6,9 @@
 #set document(author: (author_en, translator),title: title_cn)
 //样式设定
 //文本
-#set text(font: ("Noto Serif", "Noto Serif CJK SC"))
+#set text(font: ("Minion Pro", "STSong"))
+#show emph: set text(font: ("Minion Pro", "STKaiti"))
+#show strong: set text(font: ("Minion Pro", "STZhongsong"))
 //标题设定
 #show heading: set text(font: "Sarasa UI SC", weight: "black", fill: rgb("#204090"))
 #show heading.where(level: 1): set text(size: 1.5em, font: "Sarasa UI SC", weight: "regular")
@@ -14,7 +16,6 @@
 #show heading.where(level: 5): set text(font: "Sarasa UI SC")
 //脚注设定
 #show footnote: set text(fill: blue, weight: "bold")
-#show footnote.entry: set text(weight: "light", font: "Sarasa UI SC")
 //图像设定
 #set figure(supplement: [图])
 #show figure.caption: set text(size: 0.8em, font: "Sarasa UI SC", fill: rgb("#204090"))
@@ -84,7 +85,7 @@
 
 === 你知道吗？
 
-“存在之云”到底是什么？Boron 到底是4根手指还是6根手指？*Nathan R Gunne* 到底是一位搜救员还是一位海盗？《真理之书》又到底是什么？Goner 到底算不算一个宗教团体？跳跃门到底是怎么工作的？*Saya Kho* 的父亲到底是谁？在行星联合会当中，到底哪个才是最有影响力的派系？“行星联合会”又是什么？它与 Argon 联邦之间的关系到底是什么样的？
+“存在之云”到底是什么？Boron 到底是4根手指还是6根手指？*Nathan R Gunne* 到底是一位搜救员还是一位海盗？《真理之书》又到底是什么？*Goner*到底算不算一个宗教团体？跳跃门到底是怎么工作的？*Saya Kho* 的父亲到底是谁？在行星联合会当中，到底哪个才是最有影响力的派系？“行星联合会”又是什么？它与 Argon 联邦之间的关系到底是什么样的？
 
 ——你可能会问很多这样的“到底”。
 
@@ -146,7 +147,7 @@ _X Universe_ 当中出现的所有故事都源自于一系列交织在一起的�
 
 希望各位——不论是 _X3_ 或者更久远的作品入坑的老玩家，还是随着 _X4_ 破圈而入坑的新玩家，都能在这本书上了解X宇宙帷幕之后的有趣故事。
 
-#align([#emph(translator)\ _2025 年 2 月_], right)
+#align(emph([#translator\ 2025 年 2 月]), right)
 
 #pagebreak()
 
@@ -238,18 +239,18 @@ USC成立的同时，USCSS Winterblossom（冬日花号）也开工建造。这�
 
 USCSS Winterblossom的船员是12名从各个领域遴选出来的顶尖专家，名单是：
 
-+ 舰长：*Rene Farnham*博士
-+ 副舰长、天体物理学家：*Peter Ondronov*博士
-+ 工程师：*出须晃*（*Akira Desu*）博士
-+ 工程师：*Ramon Noble*博士
-+ 生物学家：*Elaine Sutton*博士
-+ 生物学家：*川岛悠里*（*Yuri Kawashima*）博士
-+ 地质学家：*Jon Caloni*博士
-+ 地质学家：*Claudia White*博士
-+ 矿物学家：*Hazel Park*博士
-+ 数学家：*Peter Gellen*博士
-+ 医学专家：*中田茂*（*Nakadah Simaru*）博士
-+ 心理学家：*Katya Poljsak*博士
++ 舰长：Rene Farnham博士
++ 副舰长、天体物理学家：Peter Ondronov博士
++ 工程师：出须晃（Akira Desu）博士
++ 工程师：Ramon Noble博士
++ 生物学家：Elaine Sutton博士
++ 生物学家：川岛悠里（Yuri Kawashima）博士
++ 地质学家：Jon Caloni博士
++ 地质学家：Claudia White博士
++ 矿物学家：Hazel Park博士
++ 数学家：Peter Gellen博士
++ 医学专家：中田茂（Nakadah Simaru）博士
++ 心理学家：Katya Poljsak博士
 
 ==== USCSS Winterblossom 出发
 
@@ -4334,7 +4335,7 @@ Nyana's Fortune的姊妹舰，外观几乎一模一样，指挥官为Isemados Si
 
 ==== USC Ayse McCallum
 
-为了纪念在服役期间牺牲的USC飞行员Ayse McCallum#footnote([CE 2905年，John Friedman与Ayse McCallum为了营救一条故障飞船而殉职。])而命名。她是USC的旗舰，CE 2948年，她在和新型改造者的作战中严重受损，九死一生方才脱离战场。
+为了纪念在服役期间牺牲的USC飞行员Ayse McCallum#footnote([CE 2905年，John Friedman与Ayse McCallum在打捞一条进入太阳系的损坏的改造者飞船时殉职。])而命名。她是USC的旗舰，CE 2948年，她在和新型改造者的作战中严重受损，九死一生方才脱离战场。
 
 由于受损过于严重，USC决定放弃修复直接除役。53年后，替代她的飞船才服役。
 
@@ -4357,8 +4358,6 @@ USC X本来是一条大气层内飞行器，在CE 2909到2910年间接受改装�
 早在CE 2042年，Sohnen就精确预测了USC X的存在和她将要经历的一系列事件。根据Sohnen高度准确的模拟数据，选择留在现实宇宙中的奎塔航者陈香织制造了一台USCＸ的复制品，它与真正的USC X毫无二致，甚至连每一颗螺丝钉都一模一样，只有跳跃引擎——复制品USC X的跳跃引擎搭载了Sohnen科技，可以正常使用。但是在一次事故中，跳跃引擎损坏，陈香织一直没能修复，只能将跳跃引擎换成了标准规格的高速巡航引擎。
 
 #figure(image("res/usc x rep.jpg"), caption: [陈香织根据Sohnen模拟计算数据制造的USC X的复制品])
-
-陈香织根据Sohnen模拟计算数据制造的USC X的复制品
 
 该复制品后来被陈香织赠送给某个派系，该派系占据着一个以Sohnen模拟计算设施为核心的巨型空间站。
 
@@ -4562,7 +4561,7 @@ Kyle Brennan曾经被Kha'ak劫持并驾驶Obliterator，后来被Argon联邦海�
 )
 
 #show table.cell.where(x: 0): set text(weight: "regular")
-#show table.cell.where(y: 0): set text(weight: "bold")
+#show table.cell.where(y: 0): set text(weight: "bold", font: "Sarasa UI SC")
 #show table: set par(justify: false)
 
 #table(
