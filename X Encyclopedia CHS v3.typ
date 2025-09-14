@@ -6,9 +6,8 @@
 #set document(author: (author_en, translator),title: title_cn)
 //样式设定
 //文本
-#set text(font: ("Minion Pro", "STSong"))
-#show emph: set text(font: ("Minion Pro", "STKaiti"))
-#show strong: set text(font: ("Minion Pro", "STZhongsong"))
+#set text(font: ("Source Serif Pro", "Source Han Serif SC"), weight: "light")
+#show emph: set text(font: ("Source Serif Pro", "KaiTi"))
 //标题设定
 #show heading: set text(font: "Sarasa UI SC", weight: "black", fill: rgb("#204090"))
 #show heading.where(level: 1): set text(size: 1.5em, font: "Sarasa UI SC", weight: "regular")
@@ -16,6 +15,7 @@
 #show heading.where(level: 5): set text(font: "Sarasa UI SC")
 //脚注设定
 #show footnote: set text(fill: blue, weight: "bold")
+#show footnote.entry: set text(font: "Sarasa UI SC", weight: "light")
 //图像设定
 #set figure(supplement: [图])
 #show figure.caption: set text(size: 0.8em, font: "Sarasa UI SC", fill: rgb("#204090"))
@@ -35,13 +35,13 @@
 	header: context [
 		#rect(width: 100%, stroke: (bottom: 0.1mm + gray))[
 			#set align(right)
-			#set text(size: 0.8em, fill: rgb(128, 128, 128), weight: "light")
+			#set text(size: 0.8em, fill: rgb(128, 128, 128), weight: "light", font: "Sarasa UI SC")
 			#title_cn
 		]
 	],
 	footer: context [
 		#set align(center)
-		#set text(size: 0.8em, weight: "bold", fill: rgb(128, 128, 128))
+		#set text(size: 0.8em, weight: "bold", fill: rgb(128, 128, 128), font: "Sarasa UI SC")
 		\- #counter(page).display() -
 	],
 )
@@ -239,18 +239,18 @@ USC成立的同时，USCSS Winterblossom（冬日花号）也开工建造。这�
 
 USCSS Winterblossom的船员是12名从各个领域遴选出来的顶尖专家，名单是：
 
-+ 舰长：Rene Farnham博士
-+ 副舰长、天体物理学家：Peter Ondronov博士
-+ 工程师：出须晃（Akira Desu）博士
-+ 工程师：Ramon Noble博士
-+ 生物学家：Elaine Sutton博士
-+ 生物学家：川岛悠里（Yuri Kawashima）博士
-+ 地质学家：Jon Caloni博士
-+ 地质学家：Claudia White博士
-+ 矿物学家：Hazel Park博士
-+ 数学家：Peter Gellen博士
-+ 医学专家：中田茂（Nakadah Simaru）博士
-+ 心理学家：Katya Poljsak博士
++ 舰长：*Rene Farnham* 博士
++ 副舰长、天体物理学家：*Peter Ondronov* 博士
++ 工程师：*出须晃*（*Akira Desu*）博士
++ 工程师：*Ramon Noble* 博士
++ 生物学家：*Elaine Sutton* 博士
++ 生物学家：*川岛悠里*（*Yuri Kawashima*）博士
++ 地质学家：*Jon Caloni*博士
++ 地质学家：*Claudia White*博士
++ 矿物学家：*Hazel Park*博士
++ 数学家：*Peter Gellen*博士
++ 医学专家：*中田茂*（*Nakadah Simaru*）博士
++ 心理学家：*Katya Poljsak*博士
 
 ==== USCSS Winterblossom 出发
 
@@ -534,6 +534,20 @@ Argon联邦海军完全无法和强大的USC正面对抗。于是Argon寻求了B
 	#colbreak()
 	#figure(image("res/Torus Destroyed.jpg"), caption: [Torus Æternal被摧毁（图像回收自数据仓库）])
 ])
+
+#pagebreak()
+
+== Beryll 的实验
+
+NT 778 至 NT 782 年间，Beryll 建造了一台 QeV#footnote[QeV = 10#super[30] eV。目前人类建造的最强大的加速器为欧洲强子对撞机（LHC），可以将粒子加速至 TeV 能级，而 QeV 比 TeV 还要高 18 个数量级。] 级别的粒子对撞机，试图寻找理论上的稳定岛#footnote[“稳定岛”理论由美国物理学家 Glenn Theodore Seaborg 提出。超铀元素普遍不稳定，半衰期仅有毫秒甚至微秒级别。该理论认为，如果具有“幻数”数字的质子和中子组成原子核，可能会存在较之相邻元素更加稳定的超铀元素。126 号 Ubh 元素被认为是下一个潜在的稳定岛元素。]元素第 126 号“Unbihexium”（Ubh）。为了测试该对撞机，Beryll 在 Hideon 行星上搭建了一个原型机，但是该原型机发生了灾难性的故障，导致 Hideon 行星碎裂。
+
+#figure(image("res/qev.jpg"), caption: [Beryll 建造的 QeV 对撞机（图像回收自数据仓库）])
+
+QeV 对撞机建成后，产生了大约 4 kg 的 Ubh，该元素呈现为 4.4 年的半衰期，在超铀元素当中已经非常稳定，通过磁力静滞可以进一步将半衰期延长至几十年。Beryll 准备测试 Ubh 作为武器的使用效果，在一个无人居住的不稳定主序星上测试投放 980 g Ubh。
+
+但是在测试即将开始时，恒星发生了喷发，导致实验空间站暴露在超过 9 Sv/h 的辐射下，所有现场人员全部死亡。
+
+此后跳跃门关闭，Beryll 逐渐解体，QeV 对撞机也消失在宇宙之中。随着跳跃门的重新上线，Beryll 的残部 Ektoberyll 找到了位于现在称为 Scarlet Star 的星区的实验空间站，并试图回收其中的数公斤 Ubh 元素，但是遭到了阻挠。
 
 #pagebreak()
 
@@ -4560,7 +4574,7 @@ Kyle Brennan曾经被Kha'ak劫持并驾驶Obliterator，后来被Argon联邦海�
 	]
 )
 
-#show table.cell.where(x: 0): set text(weight: "regular")
+#show table.cell.where(x: 0): set text(weight: "light")
 #show table.cell.where(y: 0): set text(weight: "bold", font: "Sarasa UI SC")
 #show table: set par(justify: false)
 
@@ -4670,7 +4684,7 @@ Kyle Brennan曾经被Kha'ak劫持并驾驶Obliterator，后来被Argon联邦海�
 	[2988],[818],[Northriver找到戍子，并设计了戍子防御模块，成为了Avarice星区空间站不可或缺的重要结构。],[],
 	[2990],[820],[跳跃门趋于稳定。],[],
 	[2991],[821],[Avarice星区与Windfall星区连接，活力辛迪加为分潮清道夫提供军事庇护，代价是允许活力辛迪加在Avarice星区中的活动。],[],
-	[2995],[825],[自由氏族联盟舰队残部在Fires of Defeat被Zyarth氏族舰队摧毁。\ Boron科学家Boso Ta从Split手中逃脱，并“偷”了一个科学空间站。\ Hatikvah自由联盟在Argon联邦的支持下，停止了和SCA的非法行为。\ 太阳系与跳跃门网络连接，Yaki回归。\ Heretic's End跳跃门与Boron漂泊州连接，进一步的工作打开了通往Kingdom End和Nishala的跳跃门。\ 约言联盟在Windfall建设造船厂，以支持破潮砥柱。\ 陈香织发出的信号被Boso Ta监测到，奎塔航者的存在曝光。随后陈香织被Sohnen召回。],[_X4: Foundations_\ _X4: Split Vendetta_\ _X4: Cradle of Humanity_\ _X4: Kingdom End\ X4: Timelines_],
+	[2995],[825],[自由氏族联盟舰队残部在Fires of Defeat被Zyarth氏族舰队摧毁。\ Boron科学家Boso Ta从Split手中逃脱，并“偷”了一个科学空间站。\ Hatikvah自由联盟在Argon联邦的支持下，停止了和SCA的非法行为。\ 太阳系与跳跃门网络连接，Yaki回归。\ Heretic's End跳跃门与Boron漂泊州连接，进一步的工作打开了通往Kingdom End和Nishala的跳跃门。\ 约言联盟在Windfall建设造船厂，以支持破潮砥柱。\ 陈香织发出的信号被Boso Ta监测到，奎塔航者的存在曝光。随后陈香织被Sohnen召回。],[_X4: Foundations_\ _X4: Split Vendetta_\ _X4: Cradle of Humanity_\ _X4: Kingdom End\ X4: Tides of Avarice\ X4: Timelines_],
 )
 
 #pagebreak()
