@@ -8,7 +8,6 @@
 
 为了正确编译，需要使用的字体：
 
-* [Noto Serif](https://github.com/notofonts/noto-fonts)
-* [Noto Serif CJK SC](https://github.com/notofonts/noto-cjk)
+* [Noto Serif CJK SC & Source Serif Pro](https://fonts.adobe.com/fonts/source-serif)
 * [Sarasa UI SC](https://github.com/be5invis/Sarasa-Gothic)
 * [Sarasa Term SC](https://github.com/be5invis/Sarasa-Gothic)
